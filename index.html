@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+
+<!--
+ Very Simple Example of Password Validation
+
+ James Michael McGarrah for OMSCS HCI Course
+ Summer 2018
+
+-->
+
+<html>
+<head>
+    <title>Password Check Prototype v2</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans+Condensed:300|Raleway' rel='stylesheet'
+          type='text/css'>  <!-- Including Google Fonts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!-- jQuery Library-->
+    <link rel="stylesheet" href="./passwdchk.css"/>     <!-- Including CSS file -->
+    <script src="passwdchk.js"></script>                <!-- Including jQuery file -->
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <h2>Password Check Prototype v2</h2>
+        <hr>
+    </div>
+    <div id="content">
+        <form id="register">
+            <label for="password"><b>Password : </b></label>
+            <input name="password" id="password" type="password" placeholder="Type Your Password here" />&nbsp
+            <span id="result">Empty</span>
+            <br/>
+            Show Password <input type='checkbox' id='pwdcheck' class="pwdcheck" />
+            <br/>
+            <input id="submit" type="submit" value="Submit" class="submit">
+        </form>
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="weak">&#x2716; A <b>lowercase</b> letter</p>
+        <p id="capital" class="weak">&#x2716; A <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="weak">&#x2716; A <b>number</b> or symbol</p>
+        <p id="length" class="weak">&#x2716; Minimum <b>8 characters</b></p>
+    </div>
+</div>
+</body>
+</html>
+
