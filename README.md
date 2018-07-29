@@ -1,5 +1,10 @@
-# password_check
-A simplistic password checking prototype for my HCI course.
+# Password check prototype
+
+A simplistic password checking prototype for my HCI course at Gatech.
+It was used as part of a survey for password entry for a website
+registration process.
+
+DO NOT USE FOR PRODUCTION SYSTEMS.
 
 This prototype is for password validation interface testing.
 It is the second version with additional complexity checks
@@ -21,4 +26,5 @@ This is a very simplistic example for prototyping purposes only.
 
 Code quality is secondary to feature evaluation goals.
 
+TODO: Fix known issue with redundant code for evaluations of password complexity.
 TODO: Combine all files into a single HTML file for ease of distribution.
