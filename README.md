@@ -22,3 +22,5 @@ This is a very simplistic example for prototyping purposes only.
 Code quality is secondary to feature evaluation goals.
 
 TODO: Combine all files into a single HTML file for ease of distribution.
+
+BUGFIX: Changed http to https for the lookups when I added SSL to phonemes.org
